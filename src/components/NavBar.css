@@ -1,0 +1,20 @@
+.nav-link {
+  text-decoration: none;
+  color: black;
+  margin-right: 15px;
+  font-weight: 500;
+  padding: 10px;
+}
+
+.nav-link:hover {
+  
+  background-color: rgb(98, 194, 238);
+  
+}
+
+.active-link {
+  color: red;
+  font-weight: bold;
+}
+
+
