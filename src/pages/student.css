@@ -1,0 +1,26 @@
+.student-wrapper {
+  padding: 20px;
+  text-align: center;
+}
+
+.student-form {
+  margin-bottom: 20px;
+}
+
+.student-form input {
+  padding: 8px;
+  margin: 5px;
+}
+
+.container {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.card {
+  background-color: #1d3557;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+}

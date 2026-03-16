@@ -5,7 +5,7 @@ import './NavBar.css'
 const NavBar = () => {
   return (
     <div> 
-      <div id="link" style={{ padding: "10px", backgroundColor: "#f0f0f0", marginBottom: "50px" }}>
+      <div id="link" style={{ padding: "10px", backgroundColor: "#f0f0f0", marginBottom: "25px" }}>
 
         <Link className="nav-link" to="/">Home</Link>
         <NavLink  to="/about" className={({ isActive }) => isActive ? "active-link" : "normal-link" }>  About</NavLink>
@@ -26,6 +26,18 @@ const NavBar = () => {
 
         <Link className="nav-link" to="/api_sta_call">API Calling Standard</Link> 
         <Link className="nav-link" to="/api_axios">API Calling Axios</Link> 
+        <Link className="nav-link" to="/items">Context API</Link> 
+        <Link className="nav-link" to="/student">Student Crud op</Link> 
+
+        <Link className="nav-link" to="/AcademicYear">AcademicYear</Link> 
+        <Link className="nav-link" to="/CountryMaster">CountryMaster</Link> 
+        <Link className="nav-link" to="/StateMaster">StateMaster</Link>  
+        <Link className="nav-link" to="/StandardMaster">StandardMaster</Link>  
+      </div>
+      <div id="link" style={{ padding: "10px", backgroundColor: "#f0f0f0", marginBottom: "50px" }}>
+        <Link className="nav-link" to="/ClassesMaster">ClassesMaster</Link> 
+        <Link className="nav-link" to="/SubjectMaster">SubjectMaster</Link>  
+        <Link className="nav-link" to="/HolidayMaster">HolidayMaster</Link>  
       </div>
     </div>
   )

@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+@theme {
+  /* This replaces tailwind.config.js */
+  --color-brand: #4f46e5;
+  --font-sans: "Inter", ui-sans-serif, system-ui;
+  
+  /* You can add custom shadows or spacing here too */
+  --shadow-extra: 0 10px 15px -3px rgba(79, 70, 229, 0.2);
+}

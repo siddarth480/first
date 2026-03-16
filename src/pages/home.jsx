@@ -1,8 +1,12 @@
-import React from "react";
+import React, { useContext, useState } from "react";
 import Button from "../components/button";
 import TodoItem from "../components/todoItem";
+import Count from "./count";
+
+import { CouterContext } from "../context/Counter";
 
 function Home({ todos }) {
+  const counterState = useContext(CouterContext);
   return (
     <div>
       <div
@@ -18,7 +22,15 @@ function Home({ todos }) {
             <TodoItem key={todo.id} item={todo.name} age={todo.age} />
           ))}
         </ol>
+
+
       </div>
+        <h2>Count {counterState.count}</h2>
+
+
+        <Count />
+        <Count />
+        <Count />
     </div>
   );
 }

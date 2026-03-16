@@ -30,7 +30,15 @@ import Post from "./pages/post";
 import Standard_api_small from "./pages/standard_api_small";
 import Api_axios from "./pages/api_axios";
 import Userrrs from "./pages/user";
-
+import Items from "./pages/items";
+import Student from "./pages/student";
+import AcademicYear from "./pages/cards"
+import CountryMaster from "./pages/CountryMaster"
+import ClassesMaster from "./pages/ClassesMaster"
+import StateMaster from "./pages/StateMaster"
+import SubjectMaster from "./pages/SubjectMaster" 
+import StandardMaster from "./pages/StandardMaster"
+import HolidayMaster from "./pages/HolidayMaster"
 
 const todos = [
   { id: 1, name: "Sachin", age: 20 },
@@ -110,6 +118,20 @@ function App() {
 
           <Route path="/api_axios" element={<Api_axios/>}/>
           <Route path="/api_axios/:id" element={<Userrrs/>}/>
+
+          <Route path="/items" element={<Items/>}/> 
+
+          <Route path="/student" element={<Student/>}/>
+
+
+          <Route path="/AcademicYear" element={<AcademicYear/>}/>
+          <Route path="/CountryMaster" element={<CountryMaster/>}/>
+          <Route path="/ClassesMaster" element={<ClassesMaster/>}/>
+          <Route path="/StateMaster" element={<StateMaster/>}/>
+          <Route path="/SubjectMaster" element={<SubjectMaster/>}/> 
+          <Route path="/StandardMaster" element={<StandardMaster/>}/> 
+          <Route path="/HolidayMaster" element={<HolidayMaster/>}/> 
+
         </Routes>
       
     </>

@@ -5,8 +5,8 @@ export const getUsers = async () => {
     "https://jsonplaceholder.typicode.com/users"
   );
   return response.data;
-};
 
+};
 
 
 export default getUsers
