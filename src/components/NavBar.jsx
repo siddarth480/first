@@ -27,7 +27,7 @@ const NavBar = () => {
         <Link className="nav-link" to="/api_sta_call">API Calling Standard</Link> 
         <Link className="nav-link" to="/api_axios">API Calling Axios</Link> 
         <Link className="nav-link" to="/items">Context API</Link> 
-        <Link className="nav-link" to="/student">Student Crud op</Link> 
+        {/* <Link className="nav-link" to="/student">Student Crud op</Link>  */}
 
         <Link className="nav-link" to="/AcademicYear">AcademicYear</Link> 
         <Link className="nav-link" to="/CountryMaster">CountryMaster</Link> 
